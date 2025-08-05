@@ -18,9 +18,9 @@ This repository contains simulation projects developed for the Microcontroller c
 
 Each folder contains:
 - `main.ino` is main program 
-- Timer Led blinking: Blinks LED using Timer1 in CTC mode: 0.5s ON, 2s OFF via compare match
-- LCD display: Initializes and controls a 16x2 LCD in 4-bit mode using GPIO. Supports writing strings, integers, and floating-point values at specified cursor positions. Demonstrates scrolling text with custom messages.
-- Stopwatch: Displays real-time stopwatch on 16x2 LCD with 0.1s precision using Timer1 (CTC mode). Controlled via push-button interrupt (INT1).
+- **Timer Led blinking**: Blinks LED using Timer1 in CTC mode: 0.5s ON, 2s OFF via compare match
+- **LCD display**: Initializes and controls a 16x2 LCD in 4-bit mode using GPIO. Supports writing strings, integers, and floating-point values at specified cursor positions. Demonstrates scrolling text with custom messages.
+- **Stopwatch**: Displays real-time stopwatch on 16x2 LCD with 0.1s precision using Timer1 (CTC mode). Controlled via push-button interrupt (INT1).
 
 
 ---
